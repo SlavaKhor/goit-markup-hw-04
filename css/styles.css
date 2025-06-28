@@ -45,8 +45,10 @@ a{
 }
 
 .section.effective-solutions-section {
+  
   padding: 188px 0;
-  background-color: #2e2f42;
+  background: linear-gradient(#2E2F42B2 , #2E2F42B2),
+              url("/images/people-office1.png")
 }
 
 .section.effective-solutions-section .container {
@@ -232,8 +234,30 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.social-media-icons-container{
+  display: flex;
+  gap: 24px;
+}
+.social-media-link{
+   display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;   
+  width: 40px;
+  height: 40px;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+  padding: 12px 12px;
+  
+}
 
-/* === Skills Section === */
+.social-media-icon{
+  width: 16px;
+  height: 16px;
+  position: relative;
+ 
+}
+
+/* === Benefits Section === */
 .skill {
   width: calc((100% - 72px) / 4);
 }
@@ -253,6 +277,25 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.benefits-icon{
+  width: 64px;
+  height: 64px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.svg-contaner{
+  background-color: #F4F4FD;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px solid #8E8F99;
+  margin-bottom: 8px;
+}
+
 
 /* === Portfolio Section === */
 .portfolio-list {
