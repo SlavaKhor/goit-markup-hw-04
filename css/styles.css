@@ -338,6 +338,11 @@ footer {
   color: #f4f4fd;
 }
 
+.footer .container {
+  display: flex;
+  flex-direction: row;
+}
+
 footer .logo-f-part {
   color: #f4f4fd;
 }
