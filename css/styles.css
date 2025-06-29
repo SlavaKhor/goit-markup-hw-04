@@ -206,6 +206,27 @@ ul {
 }
 
 /* === Hero Section === */
+.section.effective-solutions-section {
+  padding: 188px 0;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/people-office1.png"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section.effective-solutions-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .main-header {
   color: #ffffff;
   font-size: 56px;
@@ -215,6 +236,7 @@ ul {
   max-width: 496px;
 }
 
+/* === Order Service Button === */
 .order-service-button {
   font-weight: 500;
   background-color: #4d5ae5;
@@ -229,13 +251,14 @@ ul {
   height: 56px;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service-button:hover,
 .order-service-button:focus {
   background-color: #404bbf;
 }
+
 
 /* === Team Section === */
 .our-team-section-header,
